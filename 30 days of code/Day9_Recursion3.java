@@ -6,10 +6,12 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class Day9_Recursion3 
+{
 
     // Complete the factorial function below.
-    static int factorial(int n) {
+    static int factorial (int n)
+    {
         if (n==1)
             return 1;
         else
